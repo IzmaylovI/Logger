@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(ExampleProject)
+project(log)
 
 
 set(sources ${CMAKE_CURRENT_SOURCE_DIR}/src/close_lib.c
@@ -13,3 +13,6 @@ set(sources ${CMAKE_CURRENT_SOURCE_DIR}/src/close_lib.c
 	)
 add_library(log SHARED ${sources})
 
+
+add_subdirectory(third_party/googletest)
+add_subdirectory(tst)
