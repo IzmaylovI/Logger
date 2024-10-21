@@ -14,8 +14,3 @@ Dynamic library for logging system calls. File I/O: open,close,lseek, read,write
 # Зависимости_проекта
 1. cmake версии не ниже 3.10
 
-# Решение задачи
-![image](https://github.com/user-attachments/assets/ba6cfa66-3eab-487e-9f4e-44a6888c8b91)
-![image](https://github.com/user-attachments/assets/fe86af70-1138-4e57-b5db-ff33186287d1)
-
-
